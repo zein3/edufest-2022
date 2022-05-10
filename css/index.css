@@ -1,4 +1,22 @@
-section#pembuka {
+section#cover {
   background-image: url("../assets/bg_bag1.jpg");
   background-size: cover;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.animate-left-right {
+  animation-name: left-right;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes left-right {
+  0%   {transform: translate(1rem, 0)}
+  50%  {transform: translate(-2rem, 0)}
+  100% {transform: translate(1rem, 0)}
 }
