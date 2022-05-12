@@ -9,6 +9,10 @@ img {
   height: auto;
 }
 
+.anime-scale {
+  scale: 0.7;
+}
+
 .animate-left-right {
   animation-name: left-right;
   animation-duration: 4s;
