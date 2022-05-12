@@ -16,7 +16,22 @@ img {
 }
 
 @keyframes left-right {
-  0%   {transform: translate(1rem, 0)}
-  50%  {transform: translate(-2rem, 0)}
-  100% {transform: translate(1rem, 0)}
+  0% {
+    transform: translate(1rem, 0);
+  }
+  50% {
+    transform: translate(-2rem, 0);
+  }
+  100% {
+    transform: translate(1rem, 0);
+  }
+}
+
+.nav-link {
+  font-family: "Montserrat";
+}
+
+.navbar-brand {
+  font-family: "Pacifico";
+  font-size: 1, 3rem;
 }
