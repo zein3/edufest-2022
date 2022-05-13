@@ -9,21 +9,22 @@ img {
   height: auto;
 }
 
-.frosted-glass:before {
+.frosted-glass-container:before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .3);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blue(10px);
 }
 
 .frosted-glass {
-  background-color: rgba(255, 255, 255, .15);
-  backdrop-filter: blur(5px);
-  border-radius: 10px;
-  padding: .4rem;
+  background-color: rgba(255, 255, 255, .2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: .6rem;
 }
 
 .anime-scale {
